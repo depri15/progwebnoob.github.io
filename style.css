@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2? family = Quicksand: wght @ 400; 700 & display = swap');
 .navbar {
     background-color: rgba(255, 225, 0, 0.987);
     border-style: double;
@@ -20,44 +21,49 @@
 audio{
     width: 200px;
 }
-#formKomentar{
-    border: 5px solid #d1d1d1;
-    width:500px;
-    padding:10px;
-}
 
- input, textarea{
-     padding: 10px;
-     border:3px solid #e6e6e6;
-     border-radius: 5px;
-     margin-bottom: 15px; 
- }
-
- input:focus, textarea:focus{
-     border:3px solid #5E4F4F;
- }
-
- textarea{
-     width:300px;
- }
-
- input[type="submit"]{
-     cursor: pointer;
-    background: -webkit-linear-gradient(top, #efefef, #ddd);
-    background: -moz-linear-gradient(top, #efefef, #ddd);
-    background: -ms-linear-gradient(top, #efefef, #ddd);
-    background: -o-linear-gradient(top, #efefef, #ddd);
-    background: linear-gradient(top, #efefef, #ddd);
-    color: #333;
-    text-shadow: 0px 1px 1px rgba(255,255,255,1);
-    border: 1px solid #ccc;
- }
-
- input[type="submit"]:hover {
-    background: -webkit-linear-gradient(top, #eee, #ccc);
-    background: -moz-linear-gradient(top, #eee, #ccc);
-    background: -ms-linear-gradient(top, #eee, #ccc);
-    background: -o-linear-gradient(top, #eee, #ccc);
-    background: linear-gradient(top, #eee, #ccc);
-    border: 1px solid #bbb;
+@media screen and (max-width: 1000px){
+    #formKomentar{
+        border: 5px solid #d1d1d1;
+        width:100%;
+        padding:0;
+    }
+    
+     input, textarea{
+         padding: 0;
+         border: 3px solid #e6e6e6;
+         border-radius: 5px;
+         margin-bottom: 15px;
+         width: 100%; 
+     }
+    
+     input:focus, textarea:focus{
+         border: 5px solid #5E4F4F;
+     }
+    
+     textarea{
+         width:100%;
+     }
+    
+     input[type="submit"]{
+         cursor: pointer;
+        background: -webkit-linear-gradient(top, #efefef, #ddd);
+        background: -moz-linear-gradient(top, #efefef, #ddd);
+        background: -ms-linear-gradient(top, #efefef, #ddd);
+        background: -o-linear-gradient(top, #efefef, #ddd);
+        background: linear-gradient(top, #efefef, #ddd);
+        color: #333;
+        text-shadow: 0px 1px 1px rgba(255,255,255,1);
+        border: 1px solid #ccc;
+     }
+    
+     input[type="submit"]:hover {
+        background: -webkit-linear-gradient(top, #eee, #ccc);
+        background: -moz-linear-gradient(top, #eee, #ccc);
+        background: -ms-linear-gradient(top, #eee, #ccc);
+        background: -o-linear-gradient(top, #eee, #ccc);
+        background: linear-gradient(top, #eee, #ccc);
+        border: 1px solid #bbb;
+    }
+    
 }

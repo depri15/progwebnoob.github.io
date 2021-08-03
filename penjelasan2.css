@@ -17,6 +17,7 @@
     table-layout: auto;
     text-align: left;
     border: 2px;
+    width: 100%;
 }
 h4 {
     text-align: center;

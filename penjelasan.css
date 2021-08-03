@@ -24,3 +24,9 @@ svg {
     text-align: center;
     background-color: #ffc107;
 }
+@media screen and (max-width: 1000px){
+.clearfix{
+    width: 100%;
+    padding: 0;
+}
+}
