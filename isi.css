@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #00cba9;
+    border-style: double;
+    border-color: whitesmoke;
+}
+.navbar-brand{
+    border-style: double;
+    font-size: x-large;
+}
+.card {
+    text-align: center;
+}
+.card-body{
+    color: black;
+    text-shadow: red;
+    border-style: double;
+    font-size: x-large;
+}

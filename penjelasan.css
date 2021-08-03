@@ -1,0 +1,26 @@
+.navbar{
+    border-style: double;
+    border-color: whitesmoke;
+}
+.navbar-brand{
+    border-style: double;
+    font-size: x-large;
+}
+h3{
+    text-align: center;
+}
+h5{
+    text-align: justify;
+}
+.accordion-button{
+    color: darkorange;
+    font-size: x-large;
+}
+svg {
+    border-style: double;
+    border-color: whitesmoke;
+}
+.card-footer{
+    text-align: center;
+    background-color: #ffc107;
+}
