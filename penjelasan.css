@@ -16,6 +16,9 @@ h5{
     color: darkorange;
     font-size: x-large;
 }
+.border{
+    border: 3px;
+}
 svg {
     border-style: double;
     border-color: whitesmoke;

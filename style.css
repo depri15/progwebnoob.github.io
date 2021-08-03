@@ -21,17 +21,20 @@
 audio{
     width: 200px;
 }
-
+.accordion-button{
+    color: darkorange;
+    font-size: x-large;
+}
 @media screen and (max-width: 1000px){
     #formKomentar{
-        border: 5px solid #d1d1d1;
+        border: 5px solid #ffc107;
         width:100%;
         padding:0;
     }
     
      input, textarea{
          padding: 0;
-         border: 3px solid #e6e6e6;
+         border: 3px solid #00cba9;
          border-radius: 5px;
          margin-bottom: 15px;
          width: 100%; 
