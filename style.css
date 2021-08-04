@@ -27,7 +27,7 @@ audio{
 }
 @media screen and (max-width: 1000px){
     #formKomentar{
-        border: 5px solid #ffc107;
+    border: 5px solid 07 #ffc107;
         width:100%;
         padding:0;
     }

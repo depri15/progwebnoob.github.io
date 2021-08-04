@@ -1,17 +1,17 @@
-.navbar{
-    border-style: double;
-    border-color: white;
-}
 .navbar-brand{
     border-style: double;
     font-size: x-large;
 }
+.accordion-item{
+    border-color: #ffc107;
+}
 .accordion-body{
     border-style: double;
-    border-color: white;
+    border-color: #ffc107;
 }
-.card-footer {
+footer {
     text-align: center;
+    background-color: #ffc107;
 }
 .table{
     table-layout: auto;

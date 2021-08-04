@@ -1,6 +1,9 @@
+body{
+    background-color:;
+}
 .navbar {
     background-color: #00cba9;
-    border-style: double;
+    border-style: ;
     border-color: whitesmoke;
 }
 .navbar-brand{
@@ -11,8 +14,15 @@
     text-align: center;
 }
 .card-body{
-    color: black;
-    text-shadow: red;
+    border: #00cba9 5px;
+    text-shadow: darkseagreen;
     border-style: double;
     font-size: x-large;
+}
+.btn{
+    background-color: #00cba9;
+    color: black;
+}
+footer{
+    background-color: #00cba9;
 }
